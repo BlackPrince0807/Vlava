@@ -278,6 +278,7 @@ li {
   background-image: url("./img/hero-bg.jpg");
   background-attachment: fixed;
   background-size: cover;
+  height: 90vh;
 }
 
 .banner .box h1 {

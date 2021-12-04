@@ -30,7 +30,6 @@ li {
         top: 0;
         z-index: 1000;
         background-color: rgba(5, 44, 63, 0.952);
-
         .content {
             width: 85%;
             height: 70px;
@@ -38,23 +37,18 @@ li {
             display: flex;
             justify-content: space-between;
             align-items: center;
-
             .bx-menu {
                 font-size: 30px;
                 display: none;
-
-                @media screen and (max-width:900px) {
+                @media screen and (max-width: 900px) {
                     display: block;
                 }
             }
-
             .logo {
                 h1 {
                     font-size: 40px;
-
                     a {
                         color: #fff;
-
                         &:hover {
                             color: #4d8090;
                             transition: 1s;
@@ -62,20 +56,16 @@ li {
                     }
                 }
             }
-
             .menu {
                 width: 65%;
-
                 ul {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-
                     li {
                         a {
                             color: #fff;
                             font-size: 17px;
-
                             &:hover {
                                 color: #4d8090;
                                 transition: 1s;
@@ -83,16 +73,13 @@ li {
                             }
                         }
                     }
-
                     a {
                         i {
                             font-size: 30px;
-
                         }
                     }
                 }
             }
-
             .menu_1 {
                 display: none;
                 margin-top: 85%;
@@ -101,19 +88,15 @@ li {
                 width: 45%;
                 height: auto;
                 border-radius: 7%;
-
                 ul {
                     margin-top: 10%;
                     margin-bottom: 10%;
-
                     li {
                         margin-bottom: 3%;
-
                         a {
                             color: black;
                         }
                     }
-
                     a {
                         font-size: 20px;
                     }
@@ -131,7 +114,6 @@ li {
             top: 0;
             z-index: 1000;
             background-color: rgba(5, 44, 63, 0.952);
-
             .content {
                 width: 90%;
                 height: 70px;
@@ -139,14 +121,11 @@ li {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-
                 .logo {
                     h1 {
                         font-size: 38px;
-
                         a {
                             color: #fff;
-
                             &:hover {
                                 color: gold;
                                 transition: 1s;
@@ -154,20 +133,16 @@ li {
                         }
                     }
                 }
-
                 .menu {
                     width: 75%;
-
                     ul {
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-
                         li {
                             a {
                                 color: #fff;
                                 font-size: 17px;
-
                                 &:hover {
                                     color: gold;
                                     transition: 1s;
@@ -175,11 +150,9 @@ li {
                                 }
                             }
                         }
-
                         a {
                             i {
                                 font-size: 25px;
-
                                 &:hover {
                                     color: gold !important;
                                     transition: 0.7s;
@@ -201,7 +174,6 @@ li {
             top: 0;
             z-index: 1000;
             background-color: rgba(5, 44, 63, 0.952);
-
             .content {
                 width: 90%;
                 height: 70px;
@@ -209,14 +181,11 @@ li {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-
                 .logo {
                     h1 {
                         font-size: 38px;
-
                         a {
                             color: #fff;
-
                             &:hover {
                                 color: gold;
                                 transition: 1s;
@@ -224,21 +193,17 @@ li {
                         }
                     }
                 }
-
                 .menu {
                     width: 75%;
                     display: none;
-
                     ul {
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-
                         li {
                             a {
                                 color: #fff;
                                 font-size: 17px;
-
                                 &:hover {
                                     color: gold;
                                     transition: 1s;
@@ -246,11 +211,9 @@ li {
                                 }
                             }
                         }
-
                         a {
                             i {
                                 font-size: 25px;
-
                                 &:hover {
                                     color: gold !important;
                                     transition: 0.7s;
@@ -270,20 +233,18 @@ li {
     background-image: url("./img/hero-bg.jpg");
     background-attachment: fixed;
     background-size: cover;
-
+    height: 90vh;
     .box {
         h1 {
             padding-top: 140px;
             color: #fff;
             font-size: 48px;
         }
-
         h2 {
             color: #fff;
             font-size: 24px;
             padding-top: 25px;
         }
-
         button {
             font-size: 16px;
             display: inline-block;
@@ -296,7 +257,6 @@ li {
             margin-bottom: 140px;
             background: transparent;
             cursor: pointer;
-
             &:hover {
                 background-color: #4d809091;
                 border: 2px solid #4d809091;
@@ -313,19 +273,16 @@ li {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-
     h1 {
         font-size: 48px;
         color: #052c3f;
         margin-bottom: 20px;
     }
-
     h3 {
         font-size: 24px;
         color: #4d8090;
         margin-top: 10px;
     }
-
     .par {
         p {
             font-size: 16px;
@@ -334,23 +291,19 @@ li {
             font-family: 'Open Sans', sans-serif;
         }
     }
-
     .par1 {
         p {
             font-size: 16px;
             color: #444444;
             margin-top: 3%;
             font-family: 'Open Sans', sans-serif;
-
             i {
                 font-size: 25px;
             }
         }
     }
-
     .par2 {
         margin-top: 5%;
-
         p {
             font-size: 16px;
             color: #444444;
@@ -369,12 +322,10 @@ li {
     margin-bottom: 30px;
     width: 100%;
     text-align: center;
-
     h1 {
         font-size: 36px;
         color: #052c3f;
     }
-
     p {
         font-size: 16px;
         color: #444444;
@@ -390,18 +341,15 @@ li {
     flex-wrap: nowrap;
     margin-top: 3%;
     justify-content: space-between;
-
     .quas {
         display: flex;
         flex-wrap: nowrap;
-
         .quas1 {
             i {
                 padding: 25px;
                 border: 2px solid #4d8090;
                 font-size: 30px;
                 border-radius: 50%;
-
                 &:hover {
                     background-color: #4d8090;
                     color: #fff !important;
@@ -409,24 +357,19 @@ li {
                 }
             }
         }
-
         .quas2 {
             margin-left: 2%;
-
             h3 {
                 font-size: 20px;
                 margin-bottom: 20px;
-
                 a {
                     color: black;
-
                     &:hover {
                         color: #4d8090;
                         transition: 0.5s;
                     }
                 }
             }
-
             p {
                 font-size: 15px;
                 margin-bottom: 10px;
@@ -443,20 +386,17 @@ li {
         background-image: url("./img/hero-bg.jpg");
         background-attachment: fixed;
         background-size: cover;
-
         .box {
             h1 {
                 padding-top: 140px;
                 color: #fff;
                 font-size: 40px;
             }
-
             h2 {
                 color: #fff;
                 font-size: 22px;
                 padding-top: 25px;
             }
-
             button {
                 font-size: 16px;
                 display: inline-block;
@@ -469,7 +409,6 @@ li {
                 margin-bottom: 140px;
                 background: transparent;
                 cursor: pointer;
-
                 &:hover {
                     background-color: #4d809091;
                     border: 2px solid #4d809091;
@@ -478,7 +417,6 @@ li {
             }
         }
     }
-
     .card {
         width: 95%;
         margin: auto;
@@ -486,19 +424,16 @@ li {
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
-
         h1 {
             font-size: 38px;
             color: #052c3f;
             margin-bottom: 20px;
         }
-
         h3 {
             font-size: 20px;
             color: #4d8090;
             margin-top: 10px;
         }
-
         .par {
             p {
                 font-size: 15px;
@@ -507,23 +442,19 @@ li {
                 font-family: 'Open Sans', sans-serif;
             }
         }
-
         .par1 {
             p {
                 font-size: 15px;
                 color: #444444;
                 margin-top: 3%;
                 font-family: 'Open Sans', sans-serif;
-
                 i {
                     font-size: 25px;
                 }
             }
         }
-
         .par2 {
             margin-top: 5%;
-
             p {
                 font-size: 15px;
                 color: #444444;
@@ -532,22 +463,18 @@ li {
             }
         }
     }
-
     .ser_a {
         background-color: rgba(95, 158, 160, 0.062);
     }
-
     .servis {
         margin-top: 100px;
         margin-bottom: 30px;
         width: 100%;
         text-align: center;
-
         h1 {
             font-size: 35px;
             color: #052c3f;
         }
-
         p {
             font-size: 15px;
             color: #444444;
@@ -555,7 +482,6 @@ li {
             font-family: 'Open Sans', sans-serif;
         }
     }
-
     .buds {
         width: 95%;
         margin: auto;
@@ -563,17 +489,14 @@ li {
         flex-wrap: nowrap;
         margin-top: 3%;
         justify-content: space-between;
-
         .quas {
             display: flex;
-
             .quas1 {
                 i {
                     padding: 22px;
                     border: 2px solid #4d8090;
                     font-size: 30px;
                     border-radius: 50%;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff !important;
@@ -581,24 +504,19 @@ li {
                     }
                 }
             }
-
             .quas2 {
                 margin-left: 2%;
-
                 h3 {
                     font-size: 20px;
                     margin-bottom: 20px;
-
                     a {
                         color: black;
-
                         &:hover {
                             color: #4d8090;
                             transition: 0.5s;
                         }
                     }
                 }
-
                 p {
                     font-size: 14px;
                     margin-bottom: 10px;
@@ -618,22 +536,18 @@ li {
         justify-content: center;
         flex-wrap: wrap;
         text-align: center;
-
         h1 {
             font-size: 45px;
             color: #052c3f;
             margin-bottom: 20px;
         }
-
         h3 {
             font-size: 23px;
             color: #4d8090;
             margin-top: 10px;
         }
-
         .par {
             margin-top: 30px;
-
             p {
                 font-size: 16px;
                 color: #444444;
@@ -641,23 +555,19 @@ li {
                 font-family: 'Open Sans', sans-serif;
             }
         }
-
         .par1 {
             p {
                 font-size: 16px;
                 color: #444444;
                 margin-top: 3%;
                 font-family: 'Open Sans', sans-serif;
-
                 i {
                     font-size: 25px;
                 }
             }
         }
-
         .par2 {
             margin-top: 5%;
-
             p {
                 font-size: 16px;
                 color: #444444;
@@ -666,22 +576,18 @@ li {
             }
         }
     }
-
     .ser_a {
         background-color: rgba(95, 158, 160, 0.062);
     }
-
     .servis {
         margin-top: 100px;
         margin-bottom: 30px;
         width: 100%;
         text-align: center;
-
         h1 {
             font-size: 35px;
             color: #052c3f;
         }
-
         p {
             font-size: 16px;
             color: #444444;
@@ -689,7 +595,6 @@ li {
             font-family: 'Open Sans', sans-serif;
         }
     }
-
     .buds {
         width: 90%;
         margin: auto;
@@ -697,18 +602,15 @@ li {
         flex-wrap: wrap;
         margin-top: 3%;
         justify-content: center;
-
         .quas {
             display: flex;
             margin-top: 30px;
-
             .quas1 {
                 i {
                     padding: 25px;
                     border: 2px solid #4d8090;
                     font-size: 30px;
                     border-radius: 50%;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff !important;
@@ -716,24 +618,19 @@ li {
                     }
                 }
             }
-
             .quas2 {
                 margin-left: 2%;
-
                 h3 {
                     font-size: 20px;
                     margin-bottom: 20px;
-
                     a {
                         color: black;
-
                         &:hover {
                             color: #4d8090;
                             transition: 0.5s;
                         }
                     }
                 }
-
                 p {
                     font-size: 15px;
                     margin-bottom: 10px;
@@ -751,20 +648,17 @@ li {
         background-image: url("./img/hero-bg.jpg");
         background-attachment: fixed;
         background-size: cover;
-
         .box {
             h1 {
                 padding-top: 120px;
                 color: #fff;
                 font-size: 38px;
             }
-
             h2 {
                 color: #fff;
                 font-size: 20px;
                 padding-top: 25px;
             }
-
             button {
                 font-size: 15px;
                 display: inline-block;
@@ -777,7 +671,6 @@ li {
                 margin-bottom: 140px;
                 background: transparent;
                 cursor: pointer;
-
                 &:hover {
                     background-color: #4d809091;
                     border: 2px solid #4d809091;
@@ -786,7 +679,6 @@ li {
             }
         }
     }
-
     .card {
         width: 100%;
         margin: auto;
@@ -795,22 +687,18 @@ li {
         justify-content: center;
         flex-wrap: wrap;
         text-align: center;
-
         h1 {
             font-size: 38px;
             color: #052c3f;
             margin-bottom: 20px;
         }
-
         h3 {
             font-size: 20px;
             color: #4d8090;
             margin-top: 10px;
         }
-
         .par {
             margin-top: 30px;
-
             p {
                 font-size: 15px;
                 color: #444444;
@@ -818,23 +706,19 @@ li {
                 font-family: 'Open Sans', sans-serif;
             }
         }
-
         .par1 {
             p {
                 font-size: 15px;
                 color: #444444;
                 margin-top: 3%;
                 font-family: 'Open Sans', sans-serif;
-
                 i {
                     font-size: 25px;
                 }
             }
         }
-
         .par2 {
             margin-top: 5%;
-
             p {
                 font-size: 15px;
                 color: #444444;
@@ -843,22 +727,18 @@ li {
             }
         }
     }
-
     .ser_a {
         background-color: rgba(95, 158, 160, 0.062);
     }
-
     .servis {
         margin-top: 100px;
         margin-bottom: 30px;
         width: 100%;
         text-align: center;
-
         h1 {
             font-size: 33px;
             color: #052c3f;
         }
-
         p {
             font-size: 15px;
             color: #444444;
@@ -866,7 +746,6 @@ li {
             font-family: 'Open Sans', sans-serif;
         }
     }
-
     .buds {
         width: 100%;
         margin: auto;
@@ -874,18 +753,15 @@ li {
         flex-wrap: wrap;
         margin-top: 3%;
         justify-content: center;
-
         .quas {
             display: flex;
             margin-top: 30px;
-
             .quas1 {
                 i {
                     padding: 20px;
                     border: 2px solid #4d8090;
                     font-size: 30px;
                     border-radius: 50%;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff !important;
@@ -893,24 +769,19 @@ li {
                     }
                 }
             }
-
             .quas2 {
                 margin-left: 2%;
-
                 h3 {
                     font-size: 20px;
                     margin-bottom: 20px;
-
                     a {
                         color: black;
-
                         &:hover {
                             color: #4d8090;
                             transition: 0.5s;
                         }
                     }
                 }
-
                 p {
                     font-size: 15px;
                     margin-bottom: 10px;
@@ -928,20 +799,17 @@ li {
         background-image: url("./img/hero-bg.jpg");
         background-attachment: fixed;
         background-size: cover;
-
         .box {
             h1 {
                 padding-top: 100px;
                 color: #fff;
                 font-size: 30px;
             }
-
             h2 {
                 color: #fff;
                 font-size: 21px;
                 padding-top: 25px;
             }
-
             button {
                 font-size: 15px;
                 display: inline-block;
@@ -954,7 +822,6 @@ li {
                 margin-bottom: 140px;
                 background: transparent;
                 cursor: pointer;
-
                 &:hover {
                     background-color: #4d809091;
                     border: 2px solid #4d809091;
@@ -963,7 +830,6 @@ li {
             }
         }
     }
-
     .card {
         width: 95%;
         margin: auto;
@@ -972,22 +838,18 @@ li {
         justify-content: center;
         flex-wrap: wrap;
         text-align: center;
-
         h1 {
             font-size: 33px;
             color: #052c3f;
             margin-bottom: 20px;
         }
-
         h3 {
             font-size: 18px;
             color: #4d8090;
             margin-top: 10px;
         }
-
         .par {
             margin-top: 30px;
-
             p {
                 font-size: 15px;
                 color: #444444;
@@ -995,23 +857,19 @@ li {
                 font-family: 'Open Sans', sans-serif;
             }
         }
-
         .par1 {
             p {
                 font-size: 15px;
                 color: #444444;
                 margin-top: 3%;
                 font-family: 'Open Sans', sans-serif;
-
                 i {
                     font-size: 25px;
                 }
             }
         }
-
         .par2 {
             margin-top: 5%;
-
             p {
                 font-size: 15px;
                 color: #444444;
@@ -1020,22 +878,18 @@ li {
             }
         }
     }
-
     .ser_a {
         background-color: rgba(95, 158, 160, 0.062);
     }
-
     .servis {
         margin-top: 100px;
         margin-bottom: 30px;
         width: 98%;
         text-align: center;
-
         h1 {
             font-size: 30px;
             color: #052c3f;
         }
-
         p {
             font-size: 15px;
             color: #444444;
@@ -1043,7 +897,6 @@ li {
             font-family: 'Open Sans', sans-serif;
         }
     }
-
     .buds {
         width: 100%;
         margin: auto;
@@ -1051,18 +904,15 @@ li {
         flex-wrap: wrap;
         margin-top: 3%;
         justify-content: center;
-
         .quas {
             display: flex;
             margin-top: 30px;
-
             .quas1 {
                 i {
                     padding: 15px;
                     border: 2px solid #4d8090;
                     font-size: 25px;
                     border-radius: 50%;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff !important;
@@ -1070,24 +920,19 @@ li {
                     }
                 }
             }
-
             .quas2 {
                 // margin-left: 2%;
-
                 h3 {
                     font-size: 18px;
                     margin-bottom: 15px;
-
                     a {
                         color: black;
-
                         &:hover {
                             color: #4d8090;
                             transition: 0.5s;
                         }
                     }
                 }
-
                 p {
                     font-size: 14px;
                     margin-bottom: 10px;
@@ -1105,20 +950,17 @@ li {
         background-image: url("./img/hero-bg.jpg");
         background-attachment: fixed;
         background-size: cover;
-
         .box {
             h1 {
                 padding-top: 100px;
                 color: #fff;
                 font-size: 26px;
             }
-
             h2 {
                 color: #fff;
                 font-size: 19px;
                 padding-top: 20px;
             }
-
             button {
                 font-size: 14px;
                 display: inline-block;
@@ -1131,7 +973,6 @@ li {
                 margin-bottom: 120px;
                 background: transparent;
                 cursor: pointer;
-
                 &:hover {
                     background-color: #4d809091;
                     border: 2px solid #4d809091;
@@ -1140,7 +981,6 @@ li {
             }
         }
     }
-
     .card {
         width: 95%;
         margin: auto;
@@ -1149,22 +989,18 @@ li {
         justify-content: center;
         flex-wrap: wrap;
         text-align: center;
-
         h1 {
             font-size: 26px;
             color: #052c3f;
             margin-bottom: 10px;
         }
-
         h3 {
             font-size: 16px;
             color: #4d8090;
             margin-top: 5px;
         }
-
         .par {
             margin-top: 30px;
-
             p {
                 font-size: 14px;
                 color: #444444;
@@ -1172,23 +1008,19 @@ li {
                 font-family: 'Open Sans', sans-serif;
             }
         }
-
         .par1 {
             p {
                 font-size: 14px;
                 color: #444444;
                 margin-top: 3%;
                 font-family: 'Open Sans', sans-serif;
-
                 i {
                     font-size: 20px;
                 }
             }
         }
-
         .par2 {
             margin-top: 5%;
-
             p {
                 font-size: 14px;
                 color: #444444;
@@ -1197,23 +1029,19 @@ li {
             }
         }
     }
-
     .ser_a {
         background-color: rgba(95, 158, 160, 0.062);
     }
-
     .servis {
         margin-top: 70px !important;
         margin-bottom: 30px;
         width: 95%;
         margin: auto;
         text-align: center;
-
         h1 {
             font-size: 26px;
             color: #052c3f;
         }
-
         p {
             font-size: 14px;
             color: #444444;
@@ -1221,7 +1049,6 @@ li {
             font-family: 'Open Sans', sans-serif;
         }
     }
-
     .buds {
         width: 95%;
         margin: auto;
@@ -1229,13 +1056,11 @@ li {
         flex-wrap: wrap;
         margin-top: 3%;
         justify-content: center;
-
         .quas {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             margin-top: 30px;
-
             .quas1 {
                 i {
                     padding: 20px;
@@ -1243,7 +1068,6 @@ li {
                     font-size: 22px;
                     border-radius: 50%;
                     margin-bottom: 10px;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff !important;
@@ -1251,24 +1075,19 @@ li {
                     }
                 }
             }
-
             .quas2 {
                 // margin-left: 2%;
-
                 h3 {
                     font-size: 16px;
                     margin-bottom: 15px;
-
                     a {
                         color: black;
-
                         &:hover {
                             color: #4d8090;
                             transition: 0.5s;
                         }
                     }
                 }
-
                 p {
                     font-size: 13px;
                     margin-bottom: 10px;
@@ -1287,33 +1106,28 @@ li {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-
     .parent {
         width: 32%;
         overflow: hidden;
         border-radius: 30px 30px 0px 0px;
         background-color: #4d80900c;
         position: relative;
-
         .lnk {
             width: 100%;
             display: flex;
             justify-content: space-between;
             position: absolute;
             top: 30%;
-
             i {
                 font-size: 40px;
                 cursor: pointer;
             }
         }
-
         &:hover {
             .child {
                 transform: translateY(-100%);
             }
         }
-
         .child {
             transition: all 1s linear;
             display: flex;
@@ -1322,29 +1136,24 @@ li {
             color: #fff;
             text-transform: uppercase;
             transform-origin: left top;
-
             img {
                 z-index: 100;
                 width: 100%;
             }
         }
-
         .child_1 {
             width: 85%;
             margin: auto;
             margin-top: 3%;
-
             h2 {
                 font-size: 22px;
                 color: #4d8090;
             }
-
             p {
                 margin-top: 3%;
                 font-size: 18px;
                 opacity: 80%;
             }
-
             button {
                 margin-top: 4%;
                 padding: 8px 30px;
@@ -1354,7 +1163,6 @@ li {
                 color: #4d8090;
                 font-size: 18px;
                 cursor: pointer;
-
                 &:hover {
                     background-color: #4d8090;
                     color: #fff;
@@ -1375,33 +1183,28 @@ li {
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
-
         .parent {
             width: 32%;
             overflow: hidden;
             border-radius: 30px 30px 0px 0px;
             background-color: #4d80900c;
             position: relative;
-
             .lnk {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
                 top: 30%;
-
                 i {
                     font-size: 40px;
                     cursor: pointer;
                 }
             }
-
             &:hover {
                 .child {
                     transform: translateY(-100%);
                 }
             }
-
             .child {
                 transition: all 1s linear;
                 display: flex;
@@ -1410,29 +1213,24 @@ li {
                 color: #fff;
                 text-transform: uppercase;
                 transform-origin: left top;
-
                 img {
                     z-index: 100;
                     width: 100%;
                 }
             }
-
             .child_1 {
                 width: 85%;
                 margin: auto;
                 margin-top: 3%;
-
                 h2 {
                     font-size: 22px;
                     color: #4d8090;
                 }
-
                 p {
                     margin-top: 3%;
                     font-size: 17px;
                     opacity: 80%;
                 }
-
                 button {
                     margin-top: 4%;
                     padding: 8px 30px;
@@ -1442,7 +1240,6 @@ li {
                     color: #4d8090;
                     font-size: 18px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff;
@@ -1464,33 +1261,28 @@ li {
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
-
         .parent {
             width: 32%;
             overflow: hidden;
             border-radius: 30px 30px 0px 0px;
             background-color: #4d80900c;
             position: relative;
-
             .lnk {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
                 top: 30%;
-
                 i {
                     font-size: 38px;
                     cursor: pointer;
                 }
             }
-
             &:hover {
                 .child {
                     transform: translateY(-100%);
                 }
             }
-
             .child {
                 transition: all 1s linear;
                 display: flex;
@@ -1499,29 +1291,24 @@ li {
                 color: #fff;
                 text-transform: uppercase;
                 transform-origin: left top;
-
                 img {
                     z-index: 100;
                     width: 100%;
                 }
             }
-
             .child_1 {
                 width: 85%;
                 margin: auto;
                 margin-top: 3%;
-
                 h2 {
                     font-size: 21px;
                     color: #4d8090;
                 }
-
                 p {
                     margin-top: 3%;
                     font-size: 16px;
                     opacity: 80%;
                 }
-
                 button {
                     margin-top: 4%;
                     padding: 7px 25px;
@@ -1531,7 +1318,6 @@ li {
                     color: #4d8090;
                     font-size: 17px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff;
@@ -1553,33 +1339,28 @@ li {
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
-
         .parent {
             width: 32%;
             overflow: hidden;
             border-radius: 30px 30px 0px 0px;
             background-color: #4d80900c;
             position: relative;
-
             .lnk {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
                 top: 30%;
-
                 i {
                     font-size: 38px;
                     cursor: pointer;
                 }
             }
-
             &:hover {
                 .child {
                     transform: translateY(-100%);
                 }
             }
-
             .child {
                 transition: all 1s linear;
                 display: flex;
@@ -1588,29 +1369,24 @@ li {
                 color: #fff;
                 text-transform: uppercase;
                 transform-origin: left top;
-
                 img {
                     z-index: 100;
                     width: 100%;
                 }
             }
-
             .child_1 {
                 width: 85%;
                 margin: auto;
                 margin-top: 3%;
-
                 h2 {
                     font-size: 20px;
                     color: #4d8090;
                 }
-
                 p {
                     margin-top: 3%;
                     font-size: 16px;
                     opacity: 80%;
                 }
-
                 button {
                     margin-top: 4%;
                     padding: 7px 25px;
@@ -1620,7 +1396,6 @@ li {
                     color: #4d8090;
                     font-size: 16px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff;
@@ -1641,7 +1416,6 @@ li {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap !important;
-
         .parent {
             width: 48%;
             overflow: hidden;
@@ -1649,26 +1423,22 @@ li {
             background-color: #4d80900c;
             position: relative;
             margin-top: 10%;
-
             .lnk {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
                 top: 30%;
-
                 i {
                     font-size: 40px;
                     cursor: pointer;
                 }
             }
-
             &:hover {
                 .child {
                     transform: translateY(-100%);
                 }
             }
-
             .child {
                 transition: all 1s linear;
                 display: flex;
@@ -1677,29 +1447,24 @@ li {
                 color: #fff;
                 text-transform: uppercase;
                 transform-origin: left top;
-
                 img {
                     z-index: 100;
                     width: 100%;
                 }
             }
-
             .child_1 {
                 width: 85%;
                 margin: auto;
                 margin-top: 3%;
-
                 h2 {
                     font-size: 22px;
                     color: #4d8090;
                 }
-
                 p {
                     margin-top: 3%;
                     font-size: 18px;
                     opacity: 80%;
                 }
-
                 button {
                     margin-top: 4%;
                     padding: 8px 30px;
@@ -1709,7 +1474,6 @@ li {
                     color: #4d8090;
                     font-size: 18px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff;
@@ -1731,33 +1495,28 @@ li {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-
         .parent {
             width: 70%;
             overflow: hidden;
             border-radius: 30px 30px 0px 0px;
             background-color: #4d80900c;
             position: relative;
-
             .lnk {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
                 top: 30%;
-
                 i {
                     font-size: 40px;
                     cursor: pointer;
                 }
             }
-
             &:hover {
                 .child {
                     transform: translateY(-100%);
                 }
             }
-
             .child {
                 transition: all 1s linear;
                 display: flex;
@@ -1766,29 +1525,24 @@ li {
                 color: #fff;
                 text-transform: uppercase;
                 transform-origin: left top;
-
                 img {
                     z-index: 100;
                     width: 100%;
                 }
             }
-
             .child_1 {
                 width: 85%;
                 margin: auto;
                 margin-top: 3%;
-
                 h2 {
                     font-size: 22px;
                     color: #4d8090;
                 }
-
                 p {
                     margin-top: 3%;
                     font-size: 18px;
                     opacity: 80%;
                 }
-
                 button {
                     margin-top: 4%;
                     padding: 8px 30px;
@@ -1798,7 +1552,6 @@ li {
                     color: #4d8090;
                     font-size: 18px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff;
@@ -1820,33 +1573,28 @@ li {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-
         .parent {
             width: 85%;
             overflow: hidden;
             border-radius: 30px 30px 0px 0px;
             background-color: #4d80900c;
             position: relative;
-
             .lnk {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
                 top: 30%;
-
                 i {
                     font-size: 40px;
                     cursor: pointer;
                 }
             }
-
             &:hover {
                 .child {
                     transform: translateY(-100%);
                 }
             }
-
             .child {
                 transition: all 1s linear;
                 display: flex;
@@ -1855,29 +1603,24 @@ li {
                 color: #fff;
                 text-transform: uppercase;
                 transform-origin: left top;
-
                 img {
                     z-index: 100;
                     width: 100%;
                 }
             }
-
             .child_1 {
                 width: 85%;
                 margin: auto;
                 margin-top: 3%;
-
                 h2 {
                     font-size: 22px;
                     color: #4d8090;
                 }
-
                 p {
                     margin-top: 3%;
                     font-size: 18px;
                     opacity: 80%;
                 }
-
                 button {
                     margin-top: 4%;
                     padding: 8px 30px;
@@ -1887,7 +1630,6 @@ li {
                     color: #4d8090;
                     font-size: 18px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff;
@@ -1909,33 +1651,28 @@ li {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-
         .parent {
             width: 90%;
             overflow: hidden;
             border-radius: 30px 30px 0px 0px;
             background-color: #4d80900c;
             position: relative;
-
             .lnk {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
                 top: 30%;
-
                 i {
                     font-size: 35px;
                     cursor: pointer;
                 }
             }
-
             &:hover {
                 .child {
                     transform: translateY(-100%);
                 }
             }
-
             .child {
                 transition: all 1s linear;
                 display: flex;
@@ -1944,29 +1681,24 @@ li {
                 color: #fff;
                 text-transform: uppercase;
                 transform-origin: left top;
-
                 img {
                     z-index: 100;
                     width: 100%;
                 }
             }
-
             .child_1 {
                 width: 90%;
                 margin: auto;
                 margin-top: 3%;
-
                 h2 {
                     font-size: 20px;
                     color: #4d8090;
                 }
-
                 p {
                     margin-top: 3%;
                     font-size: 16px;
                     opacity: 80%;
                 }
-
                 button {
                     margin-top: 4%;
                     padding: 7px 20px;
@@ -1976,7 +1708,6 @@ li {
                     color: #4d8090;
                     font-size: 16px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff;
@@ -1998,33 +1729,28 @@ li {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-
         .parent {
             width: 90%;
             overflow: hidden;
             border-radius: 30px 30px 0px 0px;
             background-color: #4d80900c;
             position: relative;
-
             .lnk {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
                 top: 30%;
-
                 i {
                     font-size: 30px;
                     cursor: pointer;
                 }
             }
-
             &:hover {
                 .child {
                     transform: translateY(-100%);
                 }
             }
-
             .child {
                 transition: all 1s linear;
                 display: flex;
@@ -2033,29 +1759,24 @@ li {
                 color: #fff;
                 text-transform: uppercase;
                 transform-origin: left top;
-
                 img {
                     z-index: 100;
                     width: 100%;
                 }
             }
-
             .child_1 {
                 width: 95%;
                 margin: auto;
                 margin-top: 3%;
-
                 h2 {
                     font-size: 19px;
                     color: #4d8090;
                 }
-
                 p {
                     margin-top: 1%;
                     font-size: 15px;
                     opacity: 80%;
                 }
-
                 button {
                     margin-top: 5%;
                     padding: 5px 15px;
@@ -2065,7 +1786,6 @@ li {
                     color: #4d8090;
                     font-size: 14px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff;
@@ -2087,33 +1807,28 @@ li {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-
         .parent {
             width: 90%;
             overflow: hidden;
             border-radius: 30px 30px 0px 0px;
             background-color: #4d80900c;
             position: relative;
-
             .lnk {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
                 top: 30%;
-
                 i {
                     font-size: 25px;
                     cursor: pointer;
                 }
             }
-
             &:hover {
                 .child {
                     transform: translateY(-100%);
                 }
             }
-
             .child {
                 transition: all 1s linear;
                 display: flex;
@@ -2122,29 +1837,24 @@ li {
                 color: #fff;
                 text-transform: uppercase;
                 transform-origin: left top;
-
                 img {
                     z-index: 100;
                     width: 100%;
                 }
             }
-
             .child_1 {
                 width: 95%;
                 margin: auto;
                 margin-top: 3%;
-
                 h2 {
                     font-size: 18px;
                     color: #4d8090;
                 }
-
                 p {
                     margin-top: 1%;
                     font-size: 14px;
                     opacity: 80%;
                 }
-
                 button {
                     margin-top: 5%;
                     padding: 5px 15px;
@@ -2154,7 +1864,6 @@ li {
                     color: #4d8090;
                     font-size: 14px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090;
                         color: #fff;
@@ -2181,14 +1890,12 @@ li {
     background-image: url("./img/testimonials-bg.jpg");
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.623);
-
     .foto_a {
         background-color: rgba(255, 255, 255, 0.50);
         border-radius: 50%;
         padding: 0.5%;
         width: 120px;
         margin-top: 10%;
-
         img {
             width: 100%;
             height: 100%;
@@ -2196,32 +1903,26 @@ li {
             background: transparent;
         }
     }
-
     .caru {
         margin-top: 1%;
         margin-bottom: 10%;
-
         h2 {
             color: #fff;
         }
-
         h3 {
             color: #fff;
             opacity: 90%;
         }
-
         p {
             color: #fff;
             opacity: 80%;
             font-size: 22px;
             font-style: italic;
-
             i {
                 font-size: 30px;
             }
         }
     }
-
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -2253,22 +1954,18 @@ li {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 2%;
-
     h1 {
         font-size: 36px;
     }
-
     p {
         margin-top: 2%;
         font-size: 18px;
         color: #444444;
     }
-
     .btn_1 {
         display: flex;
         justify-content: center;
         margin-top: 3%;
-
         button {
             margin: 0 2% 0 1%;
             border: none;
@@ -2276,7 +1973,6 @@ li {
             font-size: 18px;
             font-weight: 700;
             cursor: pointer;
-
             &:hover {
                 color: #4d8090;
                 transition: 0.7s;
@@ -2289,21 +1985,17 @@ li {
     width: 88%;
     margin: auto;
     margin-bottom: 5%;
-
     .all_1 {
         display: none;
-
         .all {
             position: relative;
             display: flex;
             justify-content: space-between;
             margin-top: 3%;
             flex-wrap: nowrap;
-
             .pice {
                 width: 32%;
                 margin-top: 2%;
-
                 &:hover {
                     .plus {
                         display: block;
@@ -2313,11 +2005,9 @@ li {
                     }
                 }
             }
-
             img {
                 width: 100%;
             }
-
             .plus {
                 position: absolute;
                 top: 60%;
@@ -2327,40 +2017,32 @@ li {
                 height: 30%;
                 margin: auto;
                 display: none;
-
                 .her {
                     margin-left: 5%;
-
                     h4 {
                         margin-top: 5%;
                         color: #4d8090;
                     }
                 }
-
                 .copy {
                     margin-right: 5%;
-
                     a {
                         i {
                             font-size: 25px;
                             color: black !important;
-
                             &:hover {
                                 color: #4d8090 !important;
                                 transition: 0.7s;
                             }
                         }
-
                     }
                 }
             }
         }
     }
-
     .all_1:nth-child(1) {
         display: block;
     }
-
 }
 
 @media screen and (max-width:950px) {
@@ -2369,22 +2051,18 @@ li {
         text-align: center;
         margin-top: 5%;
         margin-bottom: 2%;
-
         h1 {
             font-size: 30px;
         }
-
         p {
             margin-top: 2%;
             font-size: 17px;
             color: #444444;
         }
-
         .btn_1 {
             display: flex;
             justify-content: center;
             margin-top: 3%;
-
             button {
                 margin: 0 2% 0 1%;
                 border: none;
@@ -2392,7 +2070,6 @@ li {
                 font-size: 17px;
                 font-weight: 700;
                 cursor: pointer;
-
                 &:hover {
                     color: #4d8090;
                     transition: 0.7s;
@@ -2400,26 +2077,21 @@ li {
             }
         }
     }
-
     .port {
         width: 80%;
         margin: auto;
         margin-bottom: 5%;
-
         .all_1 {
             display: none;
-
             .all {
                 position: relative;
                 display: flex;
                 justify-content: space-around;
                 margin-top: 3%;
                 flex-wrap: wrap;
-
                 .pice {
                     width: 48%;
                     margin-top: 2%;
-
                     &:hover {
                         .plus {
                             display: block;
@@ -2429,11 +2101,9 @@ li {
                         }
                     }
                 }
-
                 img {
                     width: 100%;
                 }
-
                 .plus {
                     position: absolute;
                     top: 60%;
@@ -2443,40 +2113,32 @@ li {
                     height: 30%;
                     margin: auto;
                     display: none;
-
                     .her {
                         margin-left: 5%;
-
                         h4 {
                             margin-top: 5%;
                             color: #4d8090;
                         }
                     }
-
                     .copy {
                         margin-right: 5%;
-
                         a {
                             i {
                                 font-size: 25px;
                                 color: black !important;
-
                                 &:hover {
                                     color: #4d8090 !important;
                                     transition: 0.7s;
                                 }
                             }
-
                         }
                     }
                 }
             }
         }
-
         .all_1:nth-child(1) {
             display: block;
         }
-
     }
 }
 
@@ -2487,22 +2149,18 @@ li {
         text-align: center;
         margin-top: 5%;
         margin-bottom: 2%;
-
         h1 {
             font-size: 28px;
         }
-
         p {
             margin-top: 2%;
             font-size: 17px;
             color: #444444;
         }
-
         .btn_1 {
             display: flex;
             justify-content: center;
             margin-top: 3%;
-
             button {
                 margin: 0 2% 0 1%;
                 border: none;
@@ -2510,7 +2168,6 @@ li {
                 font-size: 17px;
                 font-weight: 600;
                 cursor: pointer;
-
                 &:hover {
                     color: #4d8090;
                     transition: 0.7s;
@@ -2518,26 +2175,21 @@ li {
             }
         }
     }
-
     .port {
         width: 80%;
         margin: auto;
         margin-bottom: 5%;
-
         .all_1 {
             display: none;
-
             .all {
                 position: relative;
                 display: flex;
                 justify-content: space-around;
                 margin-top: 3%;
                 flex-wrap: wrap;
-
                 .pice {
                     width: 90%;
                     margin-top: 2%;
-
                     &:hover {
                         .plus {
                             display: block;
@@ -2547,11 +2199,9 @@ li {
                         }
                     }
                 }
-
                 img {
                     width: 100%;
                 }
-
                 .plus {
                     position: absolute;
                     top: 60%;
@@ -2561,45 +2211,36 @@ li {
                     height: 30%;
                     margin: auto;
                     display: none;
-
                     .her {
                         margin-left: 5%;
-
                         h2 {
                             font-size: 35px;
                         }
-
                         h4 {
                             margin-top: 5%;
                             color: #4d8090;
                             font-size: 25px;
                         }
                     }
-
                     .copy {
                         margin-right: 5%;
-
                         a {
                             i {
                                 font-size: 40px;
                                 color: black !important;
-
                                 &:hover {
                                     color: #4d8090 !important;
                                     transition: 0.7s;
                                 }
                             }
-
                         }
                     }
                 }
             }
         }
-
         .all_1:nth-child(1) {
             display: block;
         }
-
     }
 }
 
@@ -2610,22 +2251,18 @@ li {
         text-align: center;
         margin-top: 5%;
         margin-bottom: 2%;
-
         h1 {
             font-size: 25px;
         }
-
         p {
             margin-top: 2%;
             font-size: 16px;
             color: #444444;
         }
-
         .btn_1 {
             display: flex;
             justify-content: center;
             margin-top: 3%;
-
             button {
                 margin: 0 2% 0 1%;
                 border: none;
@@ -2633,7 +2270,6 @@ li {
                 font-size: 16px;
                 font-weight: 600;
                 cursor: pointer;
-
                 &:hover {
                     color: #4d8090;
                     transition: 0.7s;
@@ -2641,26 +2277,21 @@ li {
             }
         }
     }
-
     .port {
         width: 100%;
         margin: auto;
         margin-bottom: 5%;
-
         .all_1 {
             display: none;
-
             .all {
                 position: relative;
                 display: flex;
                 justify-content: space-around;
                 margin-top: 3%;
                 flex-wrap: wrap;
-
                 .pice {
                     width: 90%;
                     margin-top: 2%;
-
                     &:hover {
                         .plus {
                             display: block;
@@ -2670,11 +2301,9 @@ li {
                         }
                     }
                 }
-
                 img {
                     width: 100%;
                 }
-
                 .plus {
                     position: absolute;
                     top: 60%;
@@ -2684,45 +2313,36 @@ li {
                     height: 30%;
                     margin: auto;
                     display: none;
-
                     .her {
                         margin-left: 5%;
-
                         h2 {
                             font-size: 35px;
                         }
-
                         h4 {
                             margin-top: 5%;
                             color: #4d8090;
                             font-size: 25px;
                         }
                     }
-
                     .copy {
                         margin-right: 5%;
-
                         a {
                             i {
                                 font-size: 40px;
                                 color: black !important;
-
                                 &:hover {
                                     color: #4d8090 !important;
                                     transition: 0.7s;
                                 }
                             }
-
                         }
                     }
                 }
             }
         }
-
         .all_1:nth-child(1) {
             display: block;
         }
-
     }
 }
 
@@ -2733,22 +2353,18 @@ li {
         text-align: center;
         margin-top: 5%;
         margin-bottom: 2%;
-
         h1 {
             font-size: 25px;
         }
-
         p {
             margin-top: 2%;
             font-size: 16px;
             color: #444444;
         }
-
         .btn_1 {
             display: flex;
             justify-content: center;
             margin-top: 3%;
-
             button {
                 margin: 0 2% 0 1%;
                 border: none;
@@ -2756,7 +2372,6 @@ li {
                 font-size: 16px;
                 font-weight: 600;
                 cursor: pointer;
-
                 &:hover {
                     color: #4d8090;
                     transition: 0.7s;
@@ -2764,26 +2379,21 @@ li {
             }
         }
     }
-
     .port {
         width: 100%;
         margin: auto;
         margin-bottom: 5%;
-
         .all_1 {
             display: none;
-
             .all {
                 position: relative;
                 display: flex;
                 justify-content: space-around;
                 margin-top: 3%;
                 flex-wrap: wrap;
-
                 .pice {
                     width: 95%;
                     margin-top: 2%;
-
                     &:hover {
                         .plus {
                             display: block;
@@ -2793,11 +2403,9 @@ li {
                         }
                     }
                 }
-
                 img {
                     width: 100%;
                 }
-
                 .plus {
                     position: absolute;
                     top: 60%;
@@ -2807,45 +2415,36 @@ li {
                     height: 30%;
                     margin: auto;
                     display: none;
-
                     .her {
                         margin-left: 5%;
-
                         h2 {
                             font-size: 26px;
                         }
-
                         h4 {
                             margin-top: 5%;
                             color: #4d8090;
                             font-size: 20px;
                         }
                     }
-
                     .copy {
                         margin-right: 5%;
-
                         a {
                             i {
                                 font-size: 30px;
                                 color: black !important;
-
                                 &:hover {
                                     color: #4d8090 !important;
                                     transition: 0.7s;
                                 }
                             }
-
                         }
                     }
                 }
             }
         }
-
         .all_1:nth-child(1) {
             display: block;
         }
-
     }
 }
 
@@ -2856,24 +2455,20 @@ li {
         text-align: center;
         margin-top: 5%;
         margin-bottom: 2%;
-
         h1 {
             font-size: 22px;
         }
-
         p {
             margin-top: 2%;
             font-size: 15px;
             color: #444444;
         }
-
         .btn_1 {
             width: 80%;
             margin: auto;
             display: flex;
             justify-content: space-between;
             margin-top: 3%;
-
             button {
                 margin: 0 2% 0 1%;
                 border: none;
@@ -2881,7 +2476,6 @@ li {
                 font-size: 15px;
                 font-weight: 600;
                 cursor: pointer;
-
                 &:hover {
                     color: #4d8090;
                     transition: 0.7s;
@@ -2889,26 +2483,21 @@ li {
             }
         }
     }
-
     .port {
         width: 100%;
         margin: auto;
         margin-bottom: 5%;
-
         .all_1 {
             display: none;
-
             .all {
                 position: relative;
                 display: flex;
                 justify-content: space-around;
                 margin-top: 3%;
                 flex-wrap: wrap;
-
                 .pice {
                     width: 95%;
                     margin-top: 2%;
-
                     &:hover {
                         .plus {
                             display: block;
@@ -2918,11 +2507,9 @@ li {
                         }
                     }
                 }
-
                 img {
                     width: 100%;
                 }
-
                 .plus {
                     position: absolute;
                     top: 68%;
@@ -2932,70 +2519,57 @@ li {
                     height: 25%;
                     margin: auto;
                     display: none;
-
                     .her {
                         margin-left: 5%;
-
                         h2 {
                             font-size: 24px;
                         }
-
                         h4 {
                             margin-top: 5%;
                             color: #4d8090;
                             font-size: 18px;
                         }
                     }
-
                     .copy {
                         margin-right: 5%;
-
                         a {
                             i {
                                 font-size: 25px;
                                 color: black !important;
-
                                 &:hover {
                                     color: #4d8090 !important;
                                     transition: 0.7s;
                                 }
                             }
-
                         }
                     }
                 }
             }
         }
-
         .all_1:nth-child(1) {
             display: block;
         }
-
     }
 }
 
 .team {
     width: 100%;
     background-color: rgba(95, 158, 160, 0.062);
-
     .sint {
         width: 95%;
         margin: auto;
         text-align: center;
         padding-top: 5%;
         margin-bottom: 5%;
-
         h1 {
             font-size: 40px;
         }
-
         p {
             margin-top: 2%;
             font-size: 20px;
             opacity: 70%;
         }
     }
-
     .cto {
         width: 85%;
         margin: auto;
@@ -3003,17 +2577,14 @@ li {
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
-
         .cheif {
             width: 23.5%;
             background-color: #fff;
             box-shadow: #4d809023 0px 2px 5px 2px;
             border-radius: 7px;
-
             .off {
                 width: 100%;
                 position: relative;
-
                 &:hover {
                     .twi {
                         display: block;
@@ -3024,37 +2595,30 @@ li {
                         align-items: center;
                     }
                 }
-
                 img {
                     width: 100%;
                     border-radius: 7px;
                 }
-
                 .twi {
                     width: 100%;
                     height: 15%;
                     background-color: rgba(255, 255, 255, 0.849);
                     position: absolute;
                     display: none;
-
                     i {
                         font-size: 22px;
                         cursor: pointer;
-
                         &:hover {
                             color: #4d8090 !important;
                         }
                     }
                 }
             }
-
             .on {
                 text-align: center;
-
                 h3 {
                     margin-top: 10%;
                 }
-
                 p {
                     margin-top: 3%;
                     padding-bottom: 9%;
@@ -3069,42 +2633,35 @@ li {
     .team {
         width: 100%;
         background-color: rgba(95, 158, 160, 0.062);
-
         .sint {
             width: 95%;
             margin: auto;
             text-align: center;
             padding-top: 5%;
             margin-bottom: 5%;
-
             h1 {
                 font-size: 40px;
             }
-
             p {
                 margin-top: 2%;
                 font-size: 20px;
                 opacity: 70%;
             }
         }
-
         .cto {
             width: 95%;
             margin: auto;
             padding-bottom: 7%;
             display: flex;
             justify-content: space-between;
-
             .cheif {
                 width: 23.5%;
                 background-color: #fff;
                 box-shadow: #4d809023 0px 2px 5px 2px;
                 border-radius: 7px;
-
                 .off {
                     width: 100%;
                     position: relative;
-
                     &:hover {
                         .twi {
                             display: block;
@@ -3115,37 +2672,30 @@ li {
                             align-items: center;
                         }
                     }
-
                     img {
                         width: 100%;
                         border-radius: 7px;
                     }
-
                     .twi {
                         width: 100%;
                         height: 15%;
                         background-color: rgba(255, 255, 255, 0.849);
                         position: absolute;
                         display: none;
-
                         i {
                             font-size: 22px;
                             cursor: pointer;
-
                             &:hover {
                                 color: #4d8090 !important;
                             }
                         }
                     }
                 }
-
                 .on {
                     text-align: center;
-
                     h3 {
                         margin-top: 10%;
                     }
-
                     p {
                         margin-top: 3%;
                         padding-bottom: 9%;
@@ -3161,24 +2711,20 @@ li {
     .team {
         width: 100%;
         background-color: rgba(95, 158, 160, 0.062);
-
         .sint {
             width: 95%;
             margin: auto;
             text-align: center;
             padding-top: 5%;
-
             h1 {
                 font-size: 40px;
             }
-
             p {
                 margin-top: 2%;
                 font-size: 20px;
                 opacity: 70%;
             }
         }
-
         .cto {
             width: 85%;
             margin: auto;
@@ -3186,18 +2732,15 @@ li {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-
             .cheif {
                 width: 48%;
                 background-color: #fff;
                 box-shadow: #4d809023 0px 2px 5px 2px;
                 border-radius: 7px;
                 margin-top: 5%;
-
                 .off {
                     width: 100%;
                     position: relative;
-
                     &:hover {
                         .twi {
                             display: block;
@@ -3208,38 +2751,31 @@ li {
                             align-items: center;
                         }
                     }
-
                     img {
                         width: 100%;
                         border-radius: 7px;
                     }
-
                     .twi {
                         width: 100%;
                         height: 15%;
                         background-color: rgba(255, 255, 255, 0.849);
                         position: absolute;
                         display: none;
-
                         i {
                             font-size: 22px;
                             cursor: pointer;
-
                             &:hover {
                                 color: #4d8090 !important;
                             }
                         }
                     }
                 }
-
                 .on {
                     text-align: center;
-
                     h3 {
                         margin-top: 10%;
                         font-size: 30px;
                     }
-
                     p {
                         margin-top: 3%;
                         padding-bottom: 9%;
@@ -3256,24 +2792,20 @@ li {
     .team {
         width: 100%;
         background-color: rgba(95, 158, 160, 0.062);
-
         .sint {
             width: 85%;
             margin: auto;
             text-align: center;
             padding-top: 5%;
-
             h1 {
                 font-size: 35px;
             }
-
             p {
                 margin-top: 2%;
                 font-size: 18px;
                 opacity: 70%;
             }
         }
-
         .cto {
             width: 85%;
             margin: auto;
@@ -3281,18 +2813,15 @@ li {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-
             .cheif {
                 width: 100%;
                 background-color: #fff;
                 box-shadow: #4d809023 0px 2px 5px 2px;
                 border-radius: 7px;
                 margin-top: 5%;
-
                 .off {
                     width: 100%;
                     position: relative;
-
                     &:hover {
                         .twi {
                             display: block;
@@ -3303,38 +2832,31 @@ li {
                             align-items: center;
                         }
                     }
-
                     img {
                         width: 100%;
                         border-radius: 7px;
                     }
-
                     .twi {
                         width: 100%;
                         height: 15%;
                         background-color: rgba(255, 255, 255, 0.849);
                         position: absolute;
                         display: none;
-
                         i {
                             font-size: 40px;
                             cursor: pointer;
-
                             &:hover {
                                 color: #4d8090 !important;
                             }
                         }
                     }
                 }
-
                 .on {
                     text-align: center;
-
                     h3 {
                         margin-top: 10%;
                         font-size: 30px;
                     }
-
                     p {
                         margin-top: 3%;
                         padding-bottom: 9%;
@@ -3351,24 +2873,20 @@ li {
     .team {
         width: 100%;
         background-color: rgba(95, 158, 160, 0.062);
-
         .sint {
             width: 90%;
             margin: auto;
             text-align: center;
             padding-top: 5%;
-
             h1 {
                 font-size: 33px;
             }
-
             p {
                 margin-top: 2%;
                 font-size: 17px;
                 opacity: 70%;
             }
         }
-
         .cto {
             width: 95%;
             margin: auto;
@@ -3376,18 +2894,15 @@ li {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-
             .cheif {
                 width: 100%;
                 background-color: #fff;
                 box-shadow: #4d809023 0px 2px 5px 2px;
                 border-radius: 7px;
                 margin-top: 5%;
-
                 .off {
                     width: 100%;
                     position: relative;
-
                     &:hover {
                         .twi {
                             display: block;
@@ -3398,38 +2913,31 @@ li {
                             align-items: center;
                         }
                     }
-
                     img {
                         width: 100%;
                         border-radius: 7px;
                     }
-
                     .twi {
                         width: 100%;
                         height: 15%;
                         background-color: rgba(255, 255, 255, 0.849);
                         position: absolute;
                         display: none;
-
                         i {
                             font-size: 30px;
                             cursor: pointer;
-
                             &:hover {
                                 color: #4d8090 !important;
                             }
                         }
                     }
                 }
-
                 .on {
                     text-align: center;
-
                     h3 {
                         margin-top: 5%;
                         font-size: 25px;
                     }
-
                     p {
                         margin-top: 2%;
                         padding-bottom: 5%;
@@ -3449,68 +2957,56 @@ li {
         text-align: center;
         padding-top: 5%;
         margin-bottom: 5%;
-
         h1 {
             font-size: 40px;
         }
-
         p {
             margin-top: 2%;
             font-size: 20px;
             opacity: 70%;
         }
     }
-
     .tarif {
         width: 85%;
         margin: auto;
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
-
         .buzi {
             width: 32%;
             text-align: center;
             background-color: rgba(220, 220, 220, 0.170);
             border-radius: 3%;
             margin-bottom: 3%;
-
             &:hover {
                 background-color: #4d809025;
                 transition: 1s;
                 margin-top: -2%;
             }
-
             h2 {
                 padding-top: 10%;
             }
-
             .doll {
                 margin-top: 5%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-
                 i {
                     font-size: 20px;
                 }
-
                 h3 {
                     font-size: 70px;
                     font-weight: 300;
                     color: #4d8090;
                 }
-
                 p {
                     padding-top: 6%;
                 }
             }
-
             p {
                 margin-top: 5%;
                 font-size: 18px;
             }
-
             button {
                 margin-top: 15%;
                 margin-bottom: 12%;
@@ -3520,7 +3016,6 @@ li {
                 border-radius: 5px;
                 font-size: 20px;
                 cursor: pointer;
-
                 &:hover {
                     background-color: #4d8090b7;
                     color: #fff;
@@ -3528,7 +3023,6 @@ li {
                     transition: 0.7s;
                 }
             }
-
             .pi {
                 p {
                     text-decoration: line-through;
@@ -3547,68 +3041,56 @@ li {
             text-align: center;
             padding-top: 5%;
             margin-bottom: 5%;
-
             h1 {
                 font-size: 40px;
             }
-
             p {
                 margin-top: 2%;
                 font-size: 20px;
                 opacity: 70%;
             }
         }
-
         .tarif {
             width: 85%;
             margin: auto;
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
-
             .buzi {
                 width: 45%;
                 text-align: center;
                 background-color: rgba(220, 220, 220, 0.170);
                 border-radius: 3%;
                 margin-bottom: 3%;
-
                 &:hover {
                     background-color: #4d809025;
                     transition: 1s;
                     margin-top: -2%;
                 }
-
                 h2 {
                     padding-top: 10%;
                 }
-
                 .doll {
                     margin-top: 5%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
                     i {
                         font-size: 20px;
                     }
-
                     h3 {
                         font-size: 70px;
                         font-weight: 300;
                         color: #4d8090;
                     }
-
                     p {
                         padding-top: 6%;
                     }
                 }
-
                 p {
                     margin-top: 5%;
                     font-size: 18px;
                 }
-
                 button {
                     margin-top: 15%;
                     margin-bottom: 12%;
@@ -3618,7 +3100,6 @@ li {
                     border-radius: 5px;
                     font-size: 20px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090b7;
                         color: #fff;
@@ -3626,7 +3107,6 @@ li {
                         transition: 0.7s;
                     }
                 }
-
                 .pi {
                     p {
                         text-decoration: line-through;
@@ -3646,69 +3126,57 @@ li {
             text-align: center;
             padding-top: 5%;
             margin-bottom: 5%;
-
             h1 {
                 font-size: 35px;
             }
-
             p {
                 margin-top: 2%;
                 font-size: 18px;
                 opacity: 70%;
             }
         }
-
         .tarif {
             width: 85%;
             margin: auto;
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
-
             .buzi {
                 width: 80%;
                 text-align: center;
                 background-color: rgba(220, 220, 220, 0.170);
                 border-radius: 3%;
                 margin-bottom: 3%;
-
                 &:hover {
                     background-color: #4d809025;
                     transition: 1s;
                     margin-top: -2%;
                 }
-
                 h2 {
                     padding-top: 10%;
                     font-size: 40px;
                 }
-
                 .doll {
                     margin-top: 5%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
                     i {
                         font-size: 20px;
                     }
-
                     h3 {
                         font-size: 70px;
                         font-weight: 300;
                         color: #4d8090;
                     }
-
                     p {
                         padding-top: 6%;
                     }
                 }
-
                 p {
                     margin-top: 5%;
                     font-size: 18px;
                 }
-
                 button {
                     margin-top: 15%;
                     margin-bottom: 12%;
@@ -3718,7 +3186,6 @@ li {
                     border-radius: 5px;
                     font-size: 20px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090b7;
                         color: #fff;
@@ -3726,7 +3193,6 @@ li {
                         transition: 0.7s;
                     }
                 }
-
                 .pi {
                     p {
                         text-decoration: line-through;
@@ -3746,69 +3212,57 @@ li {
             text-align: center;
             padding-top: 5%;
             margin-bottom: 5%;
-
             h1 {
                 font-size: 30px;
             }
-
             p {
                 margin-top: 2%;
                 font-size: 16px;
                 opacity: 70%;
             }
         }
-
         .tarif {
             width: 85%;
             margin: auto;
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
-
             .buzi {
                 width: 100%;
                 text-align: center;
                 background-color: rgba(220, 220, 220, 0.170);
                 border-radius: 3%;
                 margin-bottom: 3%;
-
                 &:hover {
                     background-color: #4d809025;
                     transition: 1s;
                     margin-top: -2%;
                 }
-
                 h2 {
                     padding-top: 10%;
                     font-size: 30px;
                 }
-
                 .doll {
                     margin-top: 5%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
                     i {
                         font-size: 20px;
                     }
-
                     h3 {
                         font-size: 70px;
                         font-weight: 300;
                         color: #4d8090;
                     }
-
                     p {
                         padding-top: 6%;
                     }
                 }
-
                 p {
                     margin-top: 5%;
                     font-size: 18px;
                 }
-
                 button {
                     margin-top: 15%;
                     margin-bottom: 12%;
@@ -3818,7 +3272,6 @@ li {
                     border-radius: 5px;
                     font-size: 20px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090b7;
                         color: #fff;
@@ -3826,7 +3279,6 @@ li {
                         transition: 0.7s;
                     }
                 }
-
                 .pi {
                     p {
                         text-decoration: line-through;
@@ -3846,69 +3298,57 @@ li {
             text-align: center;
             padding-top: 5%;
             margin-bottom: 5%;
-
             h1 {
                 font-size: 26px;
             }
-
             p {
                 margin-top: 2%;
                 font-size: 15px;
                 opacity: 70%;
             }
         }
-
         .tarif {
             width: 85%;
             margin: auto;
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
-
             .buzi {
                 width: 100%;
                 text-align: center;
                 background-color: rgba(220, 220, 220, 0.170);
                 border-radius: 3%;
                 margin-bottom: 3%;
-
                 &:hover {
                     background-color: #4d809025;
                     transition: 1s;
                     margin-top: -2%;
                 }
-
                 h2 {
                     padding-top: 10%;
                     font-size: 28px;
                 }
-
                 .doll {
                     margin-top: 5%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
                     i {
                         font-size: 20px;
                     }
-
                     h3 {
                         font-size: 70px;
                         font-weight: 300;
                         color: #4d8090;
                     }
-
                     p {
                         padding-top: 6%;
                     }
                 }
-
                 p {
                     margin-top: 5%;
                     font-size: 18px;
                 }
-
                 button {
                     margin-top: 15%;
                     margin-bottom: 12%;
@@ -3918,7 +3358,6 @@ li {
                     border-radius: 5px;
                     font-size: 18px;
                     cursor: pointer;
-
                     &:hover {
                         background-color: #4d8090b7;
                         color: #fff;
@@ -3926,7 +3365,6 @@ li {
                         transition: 0.7s;
                     }
                 }
-
                 .pi {
                     p {
                         text-decoration: line-through;
@@ -3944,12 +3382,10 @@ li {
         margin: auto;
         text-align: center;
         padding-top: 5%;
-
         h1 {
             font-size: 40px;
         }
     }
-
     .lasus {
         display: flex;
         justify-content: space-between;
@@ -3957,26 +3393,21 @@ li {
         flex-wrap: nowrap;
         width: 90%;
         margin: auto;
-
         .nun {
             width: 48%;
-
             .dig {
                 display: flex;
                 align-items: center;
-
                 i {
                     font-size: 28px;
                     border: 4px solid #4d8090;
                     border-radius: 50%;
                     margin-right: 3%;
                 }
-
                 h3 {
                     font-size: 20px;
                 }
             }
-
             p {
                 margin-left: 7%;
                 margin-top: 3%;
@@ -3984,7 +3415,6 @@ li {
             }
         }
     }
-
 }
 
 @media screen and (max-width:1000px) {
@@ -3994,12 +3424,10 @@ li {
             margin: auto;
             text-align: center;
             padding-top: 5%;
-
             h1 {
                 font-size: 38px;
             }
         }
-
         .lasus {
             width: 90%;
             margin: auto;
@@ -4007,26 +3435,21 @@ li {
             justify-content: space-between;
             margin-top: 5%;
             flex-wrap: nowrap;
-
             .nun {
                 width: 49%;
-
                 .dig {
                     display: flex;
                     align-items: center;
-
                     i {
                         font-size: 25px;
                         border: 3px solid #4d8090;
                         border-radius: 50%;
                         margin-right: 3%;
                     }
-
                     h3 {
                         font-size: 18px;
                     }
                 }
-
                 p {
                     margin-left: 7%;
                     margin-top: 3%;
@@ -4034,7 +3457,6 @@ li {
                 }
             }
         }
-
     }
 }
 
@@ -4045,39 +3467,32 @@ li {
             margin: auto;
             text-align: center;
             padding-top: 5%;
-
             h1 {
                 font-size: 35px;
             }
         }
-
         .lasus {
             width: 80%;
             margin: auto;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-
             .nun {
                 width: 100%;
                 margin-top: 5%;
-
                 .dig {
                     display: flex;
                     align-items: center;
-
                     i {
                         font-size: 25px;
                         border: 3px solid #4d8090;
                         border-radius: 50%;
                         margin-right: 3%;
                     }
-
                     h3 {
                         font-size: 25px;
                     }
                 }
-
                 p {
                     margin-left: 7%;
                     margin-top: 3%;
@@ -4085,7 +3500,6 @@ li {
                 }
             }
         }
-
     }
 }
 
@@ -4096,39 +3510,32 @@ li {
             margin: auto;
             text-align: center;
             padding-top: 5%;
-
             h1 {
                 font-size: 28px;
             }
         }
-
         .lasus {
             width: 90%;
             margin: auto;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-
             .nun {
                 width: 100%;
                 margin-top: 5%;
-
                 .dig {
                     display: flex;
                     align-items: center;
-
                     i {
                         font-size: 25px;
                         border: 3px solid #4d8090;
                         border-radius: 50%;
                         margin-right: 3%;
                     }
-
                     h3 {
                         font-size: 22px;
                     }
                 }
-
                 p {
                     margin-left: 7%;
                     margin-top: 3%;
@@ -4136,7 +3543,6 @@ li {
                 }
             }
         }
-
     }
 }
 
@@ -4147,39 +3553,32 @@ li {
             margin: auto;
             text-align: center;
             padding-top: 5%;
-
             h1 {
                 font-size: 25px;
             }
         }
-
         .lasus {
             width: 90%;
             margin: auto;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-
             .nun {
                 width: 100%;
                 margin-top: 5%;
-
                 .dig {
                     display: flex;
                     align-items: center;
-
                     i {
                         font-size: 22px;
                         border: 3px solid #4d8090;
                         border-radius: 50%;
                         margin-right: 3%;
                     }
-
                     h3 {
                         font-size: 20px;
                     }
                 }
-
                 p {
                     margin-left: 7%;
                     margin-top: 3%;
@@ -4187,7 +3586,6 @@ li {
                 }
             }
         }
-
     }
 }
 
@@ -4198,39 +3596,32 @@ li {
             margin: auto;
             text-align: center;
             padding-top: 5%;
-
             h1 {
                 font-size: 25px;
             }
         }
-
         .lasus {
             width: 95%;
             margin: auto;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-
             .nun {
                 width: 100%;
                 margin-top: 5%;
-
                 .dig {
                     display: flex;
                     align-items: center;
-
                     i {
                         font-size: 20px;
                         border: 3px solid #4d8090;
                         border-radius: 50%;
                         margin-right: 3%;
                     }
-
                     h3 {
                         font-size: 16px;
                     }
                 }
-
                 p {
                     margin-left: 7%;
                     margin-top: 3%;
@@ -4238,7 +3629,6 @@ li {
                 }
             }
         }
-
     }
 }
 
@@ -4246,17 +3636,14 @@ li {
     width: 100%;
     background-color: rgba(95, 158, 160, 0.062);
     margin-top: 5%;
-
     .sint {
         width: 95%;
         margin: auto;
         text-align: center;
         padding-top: 5%;
-
         h1 {
             font-size: 40px;
         }
-
         p {
             margin-top: 2%;
             padding-bottom: 3%;
@@ -4264,15 +3651,12 @@ li {
             opacity: 70%;
         }
     }
-
     .map {
         width: 100%;
-
         iframe {
             width: 100%;
         }
     }
-
     .loca {
         width: 70%;
         margin: auto;
@@ -4283,33 +3667,27 @@ li {
         justify-content: space-around;
         flex-wrap: nowrap;
         background-color: #fff;
-
         .york {
             display: flex;
             // justify-content: space-around;
             align-items: center;
             flex-wrap: nowrap;
-
             i {
                 font-size: 30px;
                 padding: 10px;
                 border-radius: 50%;
                 transition: 0.7s;
-
                 &:hover {
                     background-color: #4d8090;
                     color: #fff !important;
                 }
             }
-
             .der {
                 margin-top: 10%;
                 margin-bottom: 10%;
-
                 h2 {
                     font-size: 30px;
                 }
-
                 p {
                     margin-top: 3%;
                     color: rgba(0, 0, 255, 0.822);
@@ -4317,7 +3695,6 @@ li {
             }
         }
     }
-
     .addres {
         width: 70%;
         margin: auto;
@@ -4325,22 +3702,18 @@ li {
         box-shadow: 0px 0px 7px 0px #4d80908f;
         background-color: #fff;
         text-align: center;
-
         form {
             width: 90%;
             margin: auto;
-
             input {
                 background-color: #fff;
                 border: 1px solid rgba(128, 128, 128, 0.459);
                 border-radius: 7px 7px 7px 0px;
             }
         }
-
         .name {
             display: flex;
             justify-content: space-between;
-
             input {
                 width: 49%;
                 height: 50px;
@@ -4348,7 +3721,6 @@ li {
                 padding-left: 2%;
             }
         }
-
         .sub {
             input {
                 width: 100%;
@@ -4357,7 +3729,6 @@ li {
                 padding-left: 2%;
             }
         }
-
         .area {
             textarea {
                 width: 100%;
@@ -4365,7 +3736,6 @@ li {
                 padding: 2%;
             }
         }
-
         button {
             margin-top: 3%;
             margin-bottom: 4%;
@@ -4374,7 +3744,6 @@ li {
             padding: 15px 60px;
             font-size: 18px;
             border-radius: 7px 7px 7px 0px;
-
             &:hover {
                 background-color: #4d8090;
                 color: #fff;
@@ -4383,30 +3752,24 @@ li {
             }
         }
     }
-
     .footer {
         margin-top: 7%;
         text-align: center;
         background-image: url("./img/footer-bg.jpg");
         background-size: cover;
         color: #fff;
-
         h1 {
             padding-top: 7%;
             font-size: 50px;
         }
-
         .pq {
             margin-top: 2%;
         }
-
         p {
             font-size: 18px;
         }
-
         form {
             margin-top: 3%;
-
             input {
                 width: 40%;
                 height: 45px;
@@ -4416,9 +3779,8 @@ li {
                 border: 2px solid #fff;
                 color: #fff;
             }
-
         }
-        button{
+        button {
             margin-top: 2%;
             padding: 10px 40px;
             font-size: 18px;
@@ -4427,14 +3789,14 @@ li {
             background: transparent;
             color: #fff;
             cursor: pointer;
-            &:hover{
+            &:hover {
                 background-color: #4d8090b0;
                 transition: 1s;
             }
         }
-        .tok{
+        .tok {
             margin-top: 2%;
-            i{
+            i {
                 font-size: 25px;
                 border: 1px solid #4d8090af;
                 padding: 7px;
@@ -4444,18 +3806,18 @@ li {
                 color: #fff !important;
                 background-color: #4d8090af;
                 cursor: pointer;
-                &:hover{
+                &:hover {
                     color: black !important;
                     transition: 1s;
                 }
             }
         }
-        .diz{
+        .diz {
             margin-top: 7%;
         }
-        .zid{
+        .zid {
             padding-bottom: 3%;
-            a{
+            a {
                 color: aqua;
                 font-size: 25px;
             }
@@ -4468,17 +3830,14 @@ li {
         width: 100%;
         background-color: rgba(95, 158, 160, 0.062);
         margin-top: 5%;
-    
         .sint {
             width: 95%;
             margin: auto;
             text-align: center;
             padding-top: 5%;
-    
             h1 {
                 font-size: 35px;
             }
-    
             p {
                 margin-top: 2%;
                 padding-bottom: 3%;
@@ -4486,15 +3845,12 @@ li {
                 opacity: 70%;
             }
         }
-    
         .map {
             width: 100%;
-    
             iframe {
                 width: 100%;
             }
         }
-    
         .loca {
             width: 80%;
             margin: auto;
@@ -4505,33 +3861,27 @@ li {
             justify-content: space-around;
             flex-wrap: nowrap;
             background-color: #fff;
-    
             .york {
                 display: flex;
                 // justify-content: space-around;
                 align-items: center;
                 flex-wrap: nowrap;
-    
                 i {
                     font-size: 30px;
                     padding: 10px;
                     border-radius: 50%;
                     transition: 0.7s;
-    
                     &:hover {
                         background-color: #4d8090;
                         color: #fff !important;
                     }
                 }
-    
                 .der {
                     margin-top: 10%;
                     margin-bottom: 10%;
-    
                     h2 {
                         font-size: 30px;
                     }
-    
                     p {
                         margin-top: 3%;
                         color: rgba(0, 0, 255, 0.822);
@@ -4539,7 +3889,6 @@ li {
                 }
             }
         }
-    
         .addres {
             width: 80%;
             margin: auto;
@@ -4547,22 +3896,18 @@ li {
             box-shadow: 0px 0px 7px 0px #4d80908f;
             background-color: #fff;
             text-align: center;
-    
             form {
                 width: 90%;
                 margin: auto;
-    
                 input {
                     background-color: #fff;
                     border: 1px solid rgba(128, 128, 128, 0.459);
                     border-radius: 7px 7px 7px 0px;
                 }
             }
-    
             .name {
                 display: flex;
                 justify-content: space-between;
-    
                 input {
                     width: 49%;
                     height: 50px;
@@ -4570,7 +3915,6 @@ li {
                     padding-left: 2%;
                 }
             }
-    
             .sub {
                 input {
                     width: 100%;
@@ -4579,7 +3923,6 @@ li {
                     padding-left: 2%;
                 }
             }
-    
             .area {
                 textarea {
                     width: 100%;
@@ -4587,7 +3930,6 @@ li {
                     padding: 2%;
                 }
             }
-    
             button {
                 margin-top: 3%;
                 margin-bottom: 4%;
@@ -4596,7 +3938,6 @@ li {
                 padding: 15px 60px;
                 font-size: 18px;
                 border-radius: 7px 7px 7px 0px;
-    
                 &:hover {
                     background-color: #4d8090;
                     color: #fff;
@@ -4605,30 +3946,24 @@ li {
                 }
             }
         }
-    
         .footer {
             margin-top: 7%;
             text-align: center;
             background-image: url("./img/footer-bg.jpg");
             background-size: cover;
             color: #fff;
-    
             h1 {
                 padding-top: 7%;
                 font-size: 50px;
             }
-    
             .pq {
                 margin-top: 2%;
             }
-    
             p {
                 font-size: 18px;
             }
-    
             form {
                 margin-top: 3%;
-    
                 input {
                     width: 40%;
                     height: 45px;
@@ -4638,9 +3973,8 @@ li {
                     border: 2px solid #fff;
                     color: #fff;
                 }
-    
             }
-            button{
+            button {
                 margin-top: 2%;
                 padding: 10px 40px;
                 font-size: 18px;
@@ -4649,14 +3983,14 @@ li {
                 background: transparent;
                 color: #fff;
                 cursor: pointer;
-                &:hover{
+                &:hover {
                     background-color: #4d8090b0;
                     transition: 1s;
                 }
             }
-            .tok{
+            .tok {
                 margin-top: 2%;
-                i{
+                i {
                     font-size: 25px;
                     border: 1px solid #4d8090af;
                     padding: 7px;
@@ -4666,18 +4000,18 @@ li {
                     color: #fff !important;
                     background-color: #4d8090af;
                     cursor: pointer;
-                    &:hover{
+                    &:hover {
                         color: black !important;
                         transition: 1s;
                     }
                 }
             }
-            .diz{
+            .diz {
                 margin-top: 7%;
             }
-            .zid{
+            .zid {
                 padding-bottom: 3%;
-                a{
+                a {
                     color: aqua;
                     font-size: 25px;
                 }
@@ -4691,17 +4025,14 @@ li {
         width: 100%;
         background-color: rgba(95, 158, 160, 0.062);
         margin-top: 5%;
-    
         .sint {
             width: 95%;
             margin: auto;
             text-align: center;
             padding-top: 5%;
-    
             h1 {
                 font-size: 30px;
             }
-    
             p {
                 margin-top: 2%;
                 padding-bottom: 3%;
@@ -4709,15 +4040,12 @@ li {
                 opacity: 70%;
             }
         }
-    
         .map {
             width: 100%;
-    
             iframe {
                 width: 100%;
             }
         }
-    
         .loca {
             width: 80%;
             margin: auto;
@@ -4728,34 +4056,28 @@ li {
             justify-content: space-between;
             flex-wrap: wrap;
             background-color: #fff;
-    
             .york {
                 width: 40%;
                 display: flex;
                 // justify-content: space-around;
                 align-items: center;
                 flex-wrap: nowrap;
-    
                 i {
                     font-size: 30px;
                     padding: 10px;
                     border-radius: 50%;
                     transition: 0.7s;
-    
                     &:hover {
                         background-color: #4d8090;
                         color: #fff !important;
                     }
                 }
-    
                 .der {
                     margin-top: 10%;
                     margin-bottom: 10%;
-    
                     h2 {
                         font-size: 30px;
                     }
-    
                     p {
                         margin-top: 3%;
                         color: rgba(0, 0, 255, 0.822);
@@ -4763,7 +4085,6 @@ li {
                 }
             }
         }
-    
         .addres {
             width: 80%;
             margin: auto;
@@ -4771,22 +4092,18 @@ li {
             box-shadow: 0px 0px 7px 0px #4d80908f;
             background-color: #fff;
             text-align: center;
-    
             form {
                 width: 90%;
                 margin: auto;
-    
                 input {
                     background-color: #fff;
                     border: 1px solid rgba(128, 128, 128, 0.459);
                     border-radius: 7px 7px 7px 0px;
                 }
             }
-    
             .name {
                 display: flex;
                 justify-content: space-between;
-    
                 input {
                     width: 49%;
                     height: 50px;
@@ -4794,7 +4111,6 @@ li {
                     padding-left: 2%;
                 }
             }
-    
             .sub {
                 input {
                     width: 100%;
@@ -4803,7 +4119,6 @@ li {
                     padding-left: 2%;
                 }
             }
-    
             .area {
                 textarea {
                     width: 100%;
@@ -4811,7 +4126,6 @@ li {
                     padding: 2%;
                 }
             }
-    
             button {
                 margin-top: 3%;
                 margin-bottom: 4%;
@@ -4820,7 +4134,6 @@ li {
                 padding: 15px 60px;
                 font-size: 18px;
                 border-radius: 7px 7px 7px 0px;
-    
                 &:hover {
                     background-color: #4d8090;
                     color: #fff;
@@ -4829,30 +4142,24 @@ li {
                 }
             }
         }
-    
         .footer {
             margin-top: 7%;
             text-align: center;
             background-image: url("./img/footer-bg.jpg");
             background-size: cover;
             color: #fff;
-    
             h1 {
                 padding-top: 7%;
                 font-size: 45px;
             }
-    
             .pq {
                 margin-top: 2%;
             }
-    
             p {
                 font-size: 17px;
             }
-    
             form {
                 margin-top: 3%;
-    
                 input {
                     width: 35%;
                     height: 45px;
@@ -4862,9 +4169,8 @@ li {
                     border: 2px solid #fff;
                     color: #fff;
                 }
-    
             }
-            button{
+            button {
                 margin-top: 2%;
                 padding: 8px 30px;
                 font-size: 17px;
@@ -4873,14 +4179,14 @@ li {
                 background: transparent;
                 color: #fff;
                 cursor: pointer;
-                &:hover{
+                &:hover {
                     background-color: #4d8090b0;
                     transition: 1s;
                 }
             }
-            .tok{
+            .tok {
                 margin-top: 2%;
-                i{
+                i {
                     font-size: 22px;
                     border: 1px solid #4d8090af;
                     padding: 6px;
@@ -4890,20 +4196,20 @@ li {
                     color: #fff !important;
                     background-color: #4d8090af;
                     cursor: pointer;
-                    &:hover{
+                    &:hover {
                         color: black !important;
                         transition: 1s;
                     }
                 }
             }
-            .diz{
+            .diz {
                 margin-top: 7%;
                 font-size: 16px;
             }
-            .zid{
+            .zid {
                 padding-bottom: 3%;
                 font-size: 16px;
-                a{
+                a {
                     color: aqua;
                     font-size: 23px;
                 }
@@ -4917,17 +4223,14 @@ li {
         width: 100%;
         background-color: rgba(95, 158, 160, 0.062);
         margin-top: 5%;
-    
         .sint {
             width: 95%;
             margin: auto;
             text-align: center;
             padding-top: 5%;
-    
             h1 {
                 font-size: 28px;
             }
-    
             p {
                 margin-top: 2%;
                 padding-bottom: 3%;
@@ -4935,15 +4238,12 @@ li {
                 opacity: 70%;
             }
         }
-    
         .map {
             width: 100%;
-    
             iframe {
                 width: 100%;
             }
         }
-    
         .loca {
             width: 90%;
             margin: auto;
@@ -4954,34 +4254,28 @@ li {
             justify-content: space-between;
             flex-wrap: wrap;
             background-color: #fff;
-    
             .york {
                 width: 45%;
                 display: flex;
                 // justify-content: space-around;
                 align-items: center;
                 flex-wrap: nowrap;
-    
                 i {
                     font-size: 30px;
                     padding: 10px;
                     border-radius: 50%;
                     transition: 0.7s;
-    
                     &:hover {
                         background-color: #4d8090;
                         color: #fff !important;
                     }
                 }
-    
                 .der {
                     margin-top: 10%;
                     margin-bottom: 10%;
-    
                     h2 {
                         font-size: 30px;
                     }
-    
                     p {
                         margin-top: 3%;
                         color: rgba(0, 0, 255, 0.822);
@@ -4989,7 +4283,6 @@ li {
                 }
             }
         }
-    
         .addres {
             width: 90%;
             margin: auto;
@@ -4997,23 +4290,19 @@ li {
             box-shadow: 0px 0px 7px 0px #4d80908f;
             background-color: #fff;
             text-align: center;
-    
             form {
                 width: 90%;
                 margin: auto;
-    
                 input {
                     background-color: #fff;
                     border: 1px solid rgba(128, 128, 128, 0.459);
                     border-radius: 7px 7px 7px 0px;
                 }
             }
-    
             .name {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
-    
                 input {
                     width: 100%;
                     height: 50px;
@@ -5021,7 +4310,6 @@ li {
                     padding-left: 2%;
                 }
             }
-    
             .sub {
                 input {
                     width: 100%;
@@ -5030,7 +4318,6 @@ li {
                     padding-left: 2%;
                 }
             }
-    
             .area {
                 textarea {
                     width: 100%;
@@ -5038,7 +4325,6 @@ li {
                     padding: 2%;
                 }
             }
-    
             button {
                 margin-top: 3%;
                 margin-bottom: 4%;
@@ -5047,7 +4333,6 @@ li {
                 padding: 10px 40px;
                 font-size: 17px;
                 border-radius: 7px 7px 7px 0px;
-    
                 &:hover {
                     background-color: #4d8090;
                     color: #fff;
@@ -5056,30 +4341,24 @@ li {
                 }
             }
         }
-    
         .footer {
             margin-top: 7%;
             text-align: center;
             background-image: url("./img/footer-bg.jpg");
             background-size: cover;
             color: #fff;
-    
             h1 {
                 padding-top: 7%;
                 font-size: 40px;
             }
-    
             .pq {
                 margin-top: 2%;
             }
-    
             p {
                 font-size: 16px;
             }
-    
             form {
                 margin-top: 3%;
-    
                 input {
                     width: 50%;
                     height: 35px;
@@ -5089,9 +4368,8 @@ li {
                     border: 2px solid #fff;
                     color: #fff;
                 }
-    
             }
-            button{
+            button {
                 margin-top: 2%;
                 padding: 5px 25px;
                 font-size: 16px;
@@ -5100,14 +4378,14 @@ li {
                 background: transparent;
                 color: #fff;
                 cursor: pointer;
-                &:hover{
+                &:hover {
                     background-color: #4d8090b0;
                     transition: 1s;
                 }
             }
-            .tok{
+            .tok {
                 margin-top: 3%;
-                i{
+                i {
                     font-size: 20px;
                     border: 1px solid #4d8090af;
                     padding: 6px;
@@ -5117,20 +4395,20 @@ li {
                     color: #fff !important;
                     background-color: #4d8090af;
                     cursor: pointer;
-                    &:hover{
+                    &:hover {
                         color: black !important;
                         transition: 1s;
                     }
                 }
             }
-            .diz{
+            .diz {
                 margin-top: 7%;
                 font-size: 15px;
             }
-            .zid{
+            .zid {
                 padding-bottom: 3%;
                 font-size: 15px;
-                a{
+                a {
                     color: aqua;
                     font-size: 20px;
                 }
@@ -5144,17 +4422,14 @@ li {
         width: 100%;
         background-color: rgba(95, 158, 160, 0.062);
         margin-top: 5%;
-    
         .sint {
             width: 95%;
             margin: auto;
             text-align: center;
             padding-top: 5%;
-    
             h1 {
                 font-size: 25px;
             }
-    
             p {
                 margin-top: 2%;
                 padding-bottom: 3%;
@@ -5162,15 +4437,12 @@ li {
                 opacity: 70%;
             }
         }
-    
         .map {
             width: 100%;
-    
             iframe {
                 width: 100%;
             }
         }
-    
         .loca {
             width: 85%;
             margin: auto;
@@ -5181,34 +4453,28 @@ li {
             justify-content: space-between;
             flex-wrap: wrap;
             background-color: #fff;
-    
             .york {
                 width: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-wrap: nowrap;
-    
                 i {
                     font-size: 30px;
                     padding: 10px;
                     border-radius: 50%;
                     transition: 0.7s;
-    
                     &:hover {
                         background-color: #4d8090;
                         color: #fff !important;
                     }
                 }
-    
                 .der {
                     margin-top: 5%;
                     margin-bottom: 3%;
-    
                     h2 {
                         font-size: 30px;
                     }
-    
                     p {
                         margin-top: 3%;
                         color: rgba(0, 0, 255, 0.822);
@@ -5216,7 +4482,6 @@ li {
                 }
             }
         }
-    
         .addres {
             width: 85%;
             margin: auto;
@@ -5224,23 +4489,19 @@ li {
             box-shadow: 0px 0px 7px 0px #4d80908f;
             background-color: #fff;
             text-align: center;
-    
             form {
                 width: 90%;
                 margin: auto;
-    
                 input {
                     background-color: #fff;
                     border: 1px solid rgba(128, 128, 128, 0.459);
                     border-radius: 7px 7px 7px 0px;
                 }
             }
-    
             .name {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
-    
                 input {
                     width: 100%;
                     height: 50px;
@@ -5248,7 +4509,6 @@ li {
                     padding-left: 2%;
                 }
             }
-    
             .sub {
                 input {
                     width: 100%;
@@ -5257,7 +4517,6 @@ li {
                     padding-left: 2%;
                 }
             }
-    
             .area {
                 textarea {
                     width: 100%;
@@ -5265,7 +4524,6 @@ li {
                     padding: 2%;
                 }
             }
-    
             button {
                 margin-top: 3%;
                 margin-bottom: 4%;
@@ -5274,7 +4532,6 @@ li {
                 padding: 10px 40px;
                 font-size: 17px;
                 border-radius: 7px 7px 7px 0px;
-    
                 &:hover {
                     background-color: #4d8090;
                     color: #fff;
@@ -5283,30 +4540,24 @@ li {
                 }
             }
         }
-    
         .footer {
             margin-top: 7%;
             text-align: center;
             background-image: url("./img/footer-bg.jpg");
             background-size: cover;
             color: #fff;
-    
             h1 {
                 padding-top: 7%;
                 font-size: 35px;
             }
-    
             .pq {
                 margin-top: 2%;
             }
-    
             p {
                 font-size: 15px;
             }
-    
             form {
                 margin-top: 3%;
-    
                 input {
                     width: 60%;
                     height: 30px;
@@ -5316,9 +4567,8 @@ li {
                     border: 2px solid #fff;
                     color: #fff;
                 }
-    
             }
-            button{
+            button {
                 margin-top: 2%;
                 padding: 4px 20px;
                 font-size: 15px;
@@ -5327,14 +4577,14 @@ li {
                 background: transparent;
                 color: #fff;
                 cursor: pointer;
-                &:hover{
+                &:hover {
                     background-color: #4d8090b0;
                     transition: 1s;
                 }
             }
-            .tok{
+            .tok {
                 margin-top: 3%;
-                i{
+                i {
                     font-size: 16px;
                     border: 1px solid #4d8090af;
                     padding: 6px;
@@ -5344,20 +4594,20 @@ li {
                     color: #fff !important;
                     background-color: #4d8090af;
                     cursor: pointer;
-                    &:hover{
+                    &:hover {
                         color: black !important;
                         transition: 1s;
                     }
                 }
             }
-            .diz{
+            .diz {
                 margin-top: 7%;
                 font-size: 14px;
             }
-            .zid{
+            .zid {
                 padding-bottom: 3%;
                 font-size: 14px;
-                a{
+                a {
                     color: aqua;
                     font-size: 20px;
                 }
@@ -5371,17 +4621,14 @@ li {
         width: 100%;
         background-color: rgba(95, 158, 160, 0.062);
         margin-top: 5%;
-    
         .sint {
             width: 95%;
             margin: auto;
             text-align: center;
             padding-top: 5%;
-    
             h1 {
                 font-size: 22px;
             }
-    
             p {
                 margin-top: 2%;
                 padding-bottom: 3%;
@@ -5389,15 +4636,12 @@ li {
                 opacity: 70%;
             }
         }
-    
         .map {
             width: 100%;
-    
             iframe {
                 width: 100%;
             }
         }
-    
         .loca {
             width: 85%;
             margin: auto;
@@ -5408,7 +4652,6 @@ li {
             justify-content: space-between;
             flex-wrap: wrap;
             background-color: #fff;
-    
             .york {
                 width: 100%;
                 // display: flex;
@@ -5416,7 +4659,6 @@ li {
                 justify-content: center;
                 align-items: center;
                 flex-wrap: wrap;
-    
                 i {
                     font-size: 30px;
                     padding: 10px;
@@ -5424,21 +4666,17 @@ li {
                     border-radius: 50%;
                     margin-top: 5%;
                     transition: 0.7s;
-    
                     &:hover {
                         background-color: #4d8090;
                         color: #fff !important;
                     }
                 }
-    
                 .der {
                     margin-top: 5%;
                     margin-bottom: 3%;
-    
                     h2 {
                         font-size: 30px;
                     }
-    
                     p {
                         margin-top: 3%;
                         color: rgba(0, 0, 255, 0.822);
@@ -5446,7 +4684,6 @@ li {
                 }
             }
         }
-    
         .addres {
             width: 85%;
             margin: auto;
@@ -5454,23 +4691,19 @@ li {
             box-shadow: 0px 0px 7px 0px #4d80908f;
             background-color: #fff;
             text-align: center;
-    
             form {
                 width: 90%;
                 margin: auto;
-    
                 input {
                     background-color: #fff;
                     border: 1px solid rgba(128, 128, 128, 0.459);
                     border-radius: 7px 7px 7px 0px;
                 }
             }
-    
             .name {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
-    
                 input {
                     width: 100%;
                     height: 35px;
@@ -5478,7 +4711,6 @@ li {
                     padding-left: 2%;
                 }
             }
-    
             .sub {
                 input {
                     width: 100%;
@@ -5487,7 +4719,6 @@ li {
                     padding-left: 2%;
                 }
             }
-    
             .area {
                 textarea {
                     width: 100%;
@@ -5495,7 +4726,6 @@ li {
                     padding: 2%;
                 }
             }
-    
             button {
                 margin-top: 3%;
                 margin-bottom: 4%;
@@ -5504,7 +4734,6 @@ li {
                 padding: 8px 25px;
                 font-size: 15px;
                 border-radius: 7px 7px 7px 0px;
-    
                 &:hover {
                     background-color: #4d8090;
                     color: #fff;
@@ -5513,30 +4742,24 @@ li {
                 }
             }
         }
-    
         .footer {
             margin-top: 7%;
             text-align: center;
             background-image: url("./img/footer-bg.jpg");
             background-size: cover;
             color: #fff;
-    
             h1 {
                 padding-top: 7%;
                 font-size: 33px;
             }
-    
             .pq {
                 margin-top: 2%;
             }
-    
             p {
                 font-size: 15px;
             }
-    
             form {
                 margin-top: 3%;
-    
                 input {
                     width: 60%;
                     height: 30px;
@@ -5546,9 +4769,8 @@ li {
                     border: 2px solid #fff;
                     color: #fff;
                 }
-    
             }
-            button{
+            button {
                 margin-top: 2%;
                 padding: 4px 20px;
                 font-size: 14px;
@@ -5557,14 +4779,14 @@ li {
                 background: transparent;
                 color: #fff;
                 cursor: pointer;
-                &:hover{
+                &:hover {
                     background-color: #4d8090b0;
                     transition: 1s;
                 }
             }
-            .tok{
+            .tok {
                 margin-top: 3%;
-                i{
+                i {
                     font-size: 15px;
                     border: 1px solid #4d8090af;
                     padding: 5px;
@@ -5574,20 +4796,20 @@ li {
                     color: #fff !important;
                     background-color: #4d8090af;
                     cursor: pointer;
-                    &:hover{
+                    &:hover {
                         color: black !important;
                         transition: 1s;
                     }
                 }
             }
-            .diz{
+            .diz {
                 margin-top: 7%;
                 font-size: 13px;
             }
-            .zid{
+            .zid {
                 padding-bottom: 3%;
                 font-size: 13px;
-                a{
+                a {
                     color: aqua;
                     font-size: 18px;
                 }
@@ -5595,5 +4817,3 @@ li {
         }
     }
 }
-
-
