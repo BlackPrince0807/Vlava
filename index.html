@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./boxicons-master/css/boxicons.min.css">
+    <!-- box icon link -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -17,7 +18,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- swiper carusel link -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
     <title>Vlava</title>
 </head>
 
@@ -913,67 +917,17 @@
 
     </div>
 
+
+
+
+    <!-- aos js link -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <!-- swiper carusel js link -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script>
-        AOS.init();
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
 
-        let menuIcon = document.querySelector(".navbar .bx-menu");
-        let menu_1 = document.querySelector(".navbar .menu_1")
-        console.log(menuIcon)
-        console.log(menu_1)
-
-
-        menuIcon.onclick = function() {
-            menu_1.style.display = "block"
-        }
-
-
-        let port = document.querySelectorAll(".port .all_1");
-        let button = document.querySelectorAll(".magnam .btn_1 button");
-        console.log(port)
-        console.log(button)
-
-        button[0].onclick = function() {
-            port[1].style.display = "none"
-            port[2].style.display = "none"
-            port[3].style.display = "none"
-            port[0].style.display = "block"
-        }
-        button[1].onclick = function() {
-            port[0].style.display = "none"
-            port[2].style.display = "none"
-            port[3].style.display = "none"
-            port[1].style.display = "block"
-        }
-        button[2].onclick = function() {
-            port[1].style.display = "none"
-            port[0].style.display = "none"
-            port[3].style.display = "none"
-            port[2].style.display = "block"
-        }
-        button[3].onclick = function() {
-            port[1].style.display = "none"
-            port[2].style.display = "none"
-            port[0].style.display = "none"
-            port[3].style.display = "block"
-        }
-    </script>
+    <script src="./js/script.js"></script>
 
 </body>
 
